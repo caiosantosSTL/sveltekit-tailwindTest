@@ -6,8 +6,8 @@
 <main>
     <section>
         <div class="container mx-auto flex justify-center">
-            <button class="text-3xl font-light bg-red-500 hover:bg-blue-200
-                  active:transform active:translate-y-2  
+            <button class="text-3xl font-light bg-red-500 hover:bg-red-400
+                  active:transform active:translate-y-2 shadow-md
                   p-3 my-4 rounded-2xl transition-all">Hello world!
             </button>
         </div>
@@ -49,7 +49,10 @@
                 </div>
                 <div class="bg-red-700 mt-2 rounded flex justify-center">
                     <button
-                    class="inline-block px-4 py-3 text-sm font-semibold text-center text-white uppercase transition duration-200 ease-in-out bg-indigo-500 rounded-md cursor-pointer hover:bg-indigo-600">Tailwind
+                    class="inline-block px-4 py-3 text-sm font-semibold
+                     text-center text-white uppercase transition 
+                     duration-200 ease-in-out bg-indigo-500 rounded-md 
+                     cursor-pointer hover:bg-indigo-600">Tailwind
                     Button</button>
                 </div>
             </div>
